@@ -1,0 +1,43 @@
+h1,h2, h3, h4, h5 {
+    font-family: 'Anton', sans-serif;
+}
+
+.rounded-circle{
+    height: 105px;
+    width: 105px;
+    border-width: 10px;
+}
+
+
+.redcircle{
+    background-color: #E6563B;
+    border-radius: 50%;
+}
+
+.yellowcircle{
+    background-color: #DEA03D;
+}
+
+.greencircle{
+    background-color: #7CB06C;
+}
+
+.bluecircle{
+    background-color: #00ABA9;
+}
+
+.lgraycircle{
+    background-color: #F0F0F0;
+}
+
+.dgraycircle{
+    background-color: #E6E6E6;
+}
+
+
+    $grid-breakpoints: (
+xs: 0;
+sm: 480px;
+md: 768px;
+lg: 1024px;
+);
