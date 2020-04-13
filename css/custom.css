@@ -3,27 +3,16 @@ h1,h2, h3, h4, h5 {
 }
 
 .rounded-circle{
+}
+
+.circle-1 {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     height: 105px;
     width: 105px;
-    border-width: 10px;
-}
-
-
-.redcircle{
-    background-color: #E6563B;
-    border-radius: 50%;
-}
-
-.yellowcircle{
-    background-color: #DEA03D;
-}
-
-.greencircle{
-    background-color: #7CB06C;
-}
-
-.bluecircle{
-    background-color: #00ABA9;
 }
 
 .lgraycircle{
@@ -34,10 +23,43 @@ h1,h2, h3, h4, h5 {
     background-color: #E6E6E6;
 }
 
+.circleBase {
+    border: 7px solid white;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    text-align: center;
+    margin: 0 25px 25px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 105px;
+    height: 105px;
+    font-family: 'Anton', sans-serif;
+}
+.circleBase p {
+    margin: 0;
+    color: white;
+}
 
-    $grid-breakpoints: (
-xs: 0;
-sm: 480px;
-md: 768px;
-lg: 1024px;
-);
+
+.redCircle {
+    background-color: #E6563B;
+}
+.yellowCircle {
+    background-color: #DEA03D;
+}
+.greenCircle {
+     background-color: #7cb06c;
+}
+.blueCircle {
+      background-color: #00ABA9;
+  }
+
+
+
+/*    $grid-breakpoints: (*/
+/*xs: 0;*/
+/*sm: 480px;*/
+/*md: 768px;*/
+/*lg: 1024px;*/
+/*);*/
