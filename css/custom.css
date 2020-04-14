@@ -6,6 +6,17 @@ body{
     background-color: #F0F0F0;
 }
 
+.navbar {
+    /*height: 50px;*/
+}
+
+.logo {
+    height: 105px;
+    width: 105px;
+}
+
+
+
 .abel{
     font-family: 'Abel', sans-serif;
 
