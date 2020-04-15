@@ -102,17 +102,18 @@ body{
     .mediaQ1 {
         position: absolute;
         top:45px;
-        left:190px;
+        left:50px;
+        width: 75%;
     }
     .logoPos1{
         position: absolute;
         top: 25px;
         left: 240px;
     }
-    .services{
-        position:absolute;
-        top:45px
-        right:40px;
+    /*.services{*/
+    /*    position:absolute;*/
+    /*    top:45px*/
+    /*    right:40px;*/
     }
 }
 
